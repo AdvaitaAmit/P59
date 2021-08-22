@@ -57,20 +57,32 @@ h2 {
 
 #work {
     font-family: 'Montserrat', sans-serif;
-    background-image: linear-gradient(indigo, violet );
-    color:white;
+    background-image: linear-gradient(indigo, violet);
+    color: white;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
+
 .zoom {
-  padding: 50px;
-  transition: transform .2s; /* Animation */
-  width: 400px;
-  height: 200px;
+    padding: 50px;
+    transition: transform .2s;
+    /* Animation */
+    width: 400px;
+    height: 200px;
 }
 
 .zoom:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#inspiration {
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(aqua, cornflowerBlue);
+}
+
+img:hover {
+   transform: scale(0.9);
 }
